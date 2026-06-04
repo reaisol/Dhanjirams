@@ -50,7 +50,7 @@ export function DhanjiramHeritage() {
         <div>
           <div className="text-[#C0392B] text-xs tracking-[0.3em] uppercase mb-4">— Our Heritage —</div>
           <h2 className="text-[#2C1503] mb-6" style={{ fontFamily: "'Roboto', sans-serif", fontSize: "clamp(34px, 4vw, 52px)", fontWeight: 700 }}>
-            A Bhagyanagar Story, <span className="italic text-[#C0392B]">Lovingly Told</span>
+            A Dhanjiram's Story, <span className="italic text-[#C0392B]">Lovingly Told</span>
           </h2>
           <p className="text-[#2C1503]/75 leading-relaxed mb-4">
             In 1999, in a narrow lane of old Bhagyanagar, Hyderabad, <strong>Shri Dhanjiram ji</strong> set up a tiny brass kadhai

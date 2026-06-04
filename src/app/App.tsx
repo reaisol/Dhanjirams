@@ -7,6 +7,7 @@ import { DhanjiramHeritage } from "./components/dhanjiram-heritage";
 import { DhanjiramTestimonials } from "./components/dhanjiram-testimonials";
 import { DhanjiramCta } from "./components/dhanjiram-cta";
 import { DhanjiramFooter } from "./components/dhanjiram-footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <DhanjiramWhy />
       <DhanjiramCta />
       <DhanjiramFooter />
+      <Analytics />
     </div>
   );
 }
