@@ -4,6 +4,7 @@ import beveragesImg from "../../imports/ChatGPT_Image_May_27__2026__01_12_36_PM.
 import giftHampersImg from "../../imports/ChatGPT_Image_May_27__2026__01_14_13_PM.png";
 import namkeensImg from "../../imports/ChatGPT_Image_May_27__2026__01_17_45_PM.png";
 import sweetsImg from "../../imports/sweets.png";
+import dryFruitsImg from "../../imports/dry-fruits.jpg";
 
 const categories = [
   {
@@ -20,7 +21,7 @@ const categories = [
   },
   {
     name: "Dry Fruits",
-    img: "https://images.unsplash.com/photo-1543158181-1274e5362710?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    img: dryFruitsImg,
   },
   {
     name: "Pickles",
