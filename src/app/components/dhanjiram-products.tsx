@@ -3,11 +3,12 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import beveragesImg from "../../imports/ChatGPT_Image_May_27__2026__01_12_36_PM.png";
 import giftHampersImg from "../../imports/ChatGPT_Image_May_27__2026__01_14_13_PM.png";
 import namkeensImg from "../../imports/ChatGPT_Image_May_27__2026__01_17_45_PM.png";
+import sweetsImg from "../../imports/sweets.png";
 
 const categories = [
   {
     name: "Sweets",
-    img: "https://images.unsplash.com/photo-1649140041688-0f75446e707e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    img: sweetsImg,
   },
   {
     name: "Namkeens",
