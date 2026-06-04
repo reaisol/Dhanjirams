@@ -40,7 +40,7 @@ export function DhanjiramHeritage() {
           <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 w-28 h-28 sm:w-36 sm:h-36 lg:w-40 lg:h-40 bg-[#2C1503] rounded-full flex flex-col items-center justify-center shadow-xl border-4 border-[#FDF6E3]">
             <div className="text-[#F7941D] text-[9px] sm:text-[10px] tracking-[0.25em] uppercase">Established</div>
             <div className="text-[#F7941D]" style={{ fontFamily: "'Roboto', sans-serif", fontWeight: 800, lineHeight: 1 }}>
-              <span className="text-[32px] sm:text-[40px] lg:text-[44px]">1999</span>
+              <span className="text-[32px] sm:text-[40px] lg:text-[44px]">1990</span>
             </div>
             <div className="text-[#FDF6E3]/70 text-[9px] sm:text-[10px] tracking-widest uppercase mt-1">Hyderabad</div>
           </div>
@@ -53,19 +53,19 @@ export function DhanjiramHeritage() {
             A Dhanjiram's Story, <span className="italic text-[#C0392B]">Lovingly Told</span>
           </h2>
           <p className="text-[#2C1503]/75 leading-relaxed mb-4">
-            In 1999, in a narrow lane of old Bhagyanagar, Hyderabad, <strong>Shri Dhanjiram ji</strong> set up a tiny brass kadhai
+            In 1990, in a narrow lane of old Bhagyanagar, Hyderabad, <strong>Shri Dhanjiram ji</strong> set up a tiny brass kadhai
             and began frying namkeen with chickpea flour, moth dal, and a closely guarded blend of Deccan spices.
             Word travelled. Lines grew. Recipes never changed.
           </p>
           <p className="text-[#2C1503]/75 leading-relaxed mb-10">
-            Twenty Six  years later, we still cook in small batches, still source from the same Telangana farms,
+            Thirty Six  years later, we still cook in small batches, still source from the same Telangana farms,
             and still hand-pack every tin with the same care. Some things, you don't modernise.
           </p>
 
           <div className="grid grid-cols-3 gap-2 sm:gap-6 border-t border-[#2C1503]/10 pt-6 sm:pt-8">
             <div>
               <div className="text-[#C0392B] text-[26px] sm:text-[38px] lg:text-[44px]" style={{ fontFamily: "'Roboto', sans-serif", fontWeight: 800, lineHeight: 1 }}>
-                <Counter to={26} suffix="+" />
+                <Counter to={36} suffix="+" />
               </div>
               <div className="text-[#2C1503]/60 text-[9px] sm:text-xs tracking-normal sm:tracking-widest uppercase mt-1 sm:mt-2 leading-tight">Years of Legacy</div>
             </div>
