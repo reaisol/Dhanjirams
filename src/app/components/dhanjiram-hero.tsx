@@ -35,19 +35,20 @@ export function DhanjiramHero() {
   }, [current, goTo]);
 
   return (
-    <section className="relative w-full bg-white overflow-hidden">
+    <section className="relative w-full bg-white overflow-visible">
       {/* Slide wrapper — sized by the visible image so nothing is clipped */}
-      <div className="relative w-full" style={{ height: "clamp(320px, 55vw, 680px)" }}>
+      <div className="relative w-full">
         {banners.map((banner, i) => (
           <img
             key={i}
             src={banner.src}
             alt={banner.alt}
-            className="w-full h-full object-cover block transition-opacity duration-500"
+            className="w-full h-auto block transition-opacity duration-500"
             style={{
               opacity: i === current ? 1 : 0,
               position: i === current ? "relative" : "absolute",
               width: i === current ? "100%" : "100%",
+              height: i === current ? undefined : "auto",
               top: 0,
               left: 0,
               pointerEvents: i === current ? "auto" : "none",
