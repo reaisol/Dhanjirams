@@ -42,11 +42,11 @@ export function DhanjiramFooter() {
         </div>
 
         <div className="pt-6 sm:pt-8 flex flex-col md:flex-row items-center justify-between gap-3 sm:gap-4 text-[#2C1503]/50 text-xs text-center md:text-left">
-          <div>© 2026 Dhanjiram Namkeen Pvt. Ltd. · Bhagyanagar, Hyderabad · All rights reserved.</div>
+          <div>© 2026 Balaji Foods Pvt Ltd. H.No 7-198/1-2, Vinayaka Nagar, Qutubullapur, Hyderabad · All rights reserved.</div>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
             <a href="#" className="hover:text-[#F7941D]">Privacy</a>
             <a href="#" className="hover:text-[#F7941D]">Terms</a>
-            <a href="#" className="hover:text-[#F7941D]">FSSAI Lic. No. 10012345000123</a>
+            <a href="#" className="hover:text-[#F7941D]">FSSAI Lic. No. 13617013000894</a>
           </div>
         </div>
       </div>
