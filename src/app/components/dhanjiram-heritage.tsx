@@ -1,6 +1,6 @@
 import { motion, useInView, useMotionValue, useTransform, animate } from "motion/react";
 import { useEffect, useRef } from "react";
-import { Landmark } from "lucide-react";
+import founderImg from "../../imports/founder.png";
 
 function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
@@ -31,16 +31,16 @@ export function DhanjiramHeritage() {
           className="relative aspect-square max-w-[320px] sm:max-w-[420px] lg:max-w-[520px] mx-auto w-full mb-6 sm:mb-10 lg:mb-0"
         >
           <div className="absolute inset-0 bg-[#F7941D] rounded-[40px] shadow-2xl flex items-center justify-center overflow-hidden">
-            <div className="absolute inset-0 opacity-20" style={{
-              backgroundImage: "radial-gradient(circle at 2px 2px, #2C1503 1px, transparent 0)",
-              backgroundSize: "24px 24px",
-            }} />
-            <Landmark className="text-[#2C1503] w-[120px] h-[120px] sm:w-[160px] sm:h-[160px] lg:w-[180px] lg:h-[180px]" strokeWidth={1.2} />
+            <img
+              src={founderImg}
+              alt="Shri Dhanjiram ji, Founder"
+              className="w-full h-full object-cover object-top"
+            />
           </div>
           <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 w-28 h-28 sm:w-36 sm:h-36 lg:w-40 lg:h-40 bg-[#2C1503] rounded-full flex flex-col items-center justify-center shadow-xl border-4 border-[#FDF6E3]">
             <div className="text-[#F7941D] text-[9px] sm:text-[10px] tracking-[0.25em] uppercase">Established</div>
             <div className="text-[#F7941D]" style={{ fontFamily: "'Roboto', sans-serif", fontWeight: 800, lineHeight: 1 }}>
-              <span className="text-[32px] sm:text-[40px] lg:text-[44px]">1952</span>
+              <span className="text-[32px] sm:text-[40px] lg:text-[44px]">1999</span>
             </div>
             <div className="text-[#FDF6E3]/70 text-[9px] sm:text-[10px] tracking-widest uppercase mt-1">Hyderabad</div>
           </div>
@@ -53,12 +53,12 @@ export function DhanjiramHeritage() {
             A Bhagyanagar Story, <span className="italic text-[#C0392B]">Lovingly Told</span>
           </h2>
           <p className="text-[#2C1503]/75 leading-relaxed mb-4">
-            In 1952, in a narrow lane of old Bhagyanagar, Hyderabad, <strong>Shri Dhanjiram ji</strong> set up a tiny brass kadhai
+            In 1999, in a narrow lane of old Bhagyanagar, Hyderabad, <strong>Shri Dhanjiram ji</strong> set up a tiny brass kadhai
             and began frying namkeen with chickpea flour, moth dal, and a closely guarded blend of Deccan spices.
             Word travelled. Lines grew. Recipes never changed.
           </p>
           <p className="text-[#2C1503]/75 leading-relaxed mb-10">
-            Seventy years later, we still cook in small batches, still source from the same Telangana farms,
+            26 years later, we still cook in small batches, still source from the same Telangana farms,
             and still hand-pack every tin with the same care. Some things, you don't modernise.
           </p>
 
