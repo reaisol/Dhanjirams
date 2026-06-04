@@ -58,14 +58,14 @@ export function DhanjiramHeritage() {
             Word travelled. Lines grew. Recipes never changed.
           </p>
           <p className="text-[#2C1503]/75 leading-relaxed mb-10">
-            26 years later, we still cook in small batches, still source from the same Telangana farms,
+            Twenty Six  years later, we still cook in small batches, still source from the same Telangana farms,
             and still hand-pack every tin with the same care. Some things, you don't modernise.
           </p>
 
           <div className="grid grid-cols-3 gap-2 sm:gap-6 border-t border-[#2C1503]/10 pt-6 sm:pt-8">
             <div>
               <div className="text-[#C0392B] text-[26px] sm:text-[38px] lg:text-[44px]" style={{ fontFamily: "'Roboto', sans-serif", fontWeight: 800, lineHeight: 1 }}>
-                <Counter to={70} suffix="+" />
+                <Counter to={26} suffix="+" />
               </div>
               <div className="text-[#2C1503]/60 text-[9px] sm:text-xs tracking-normal sm:tracking-widest uppercase mt-1 sm:mt-2 leading-tight">Years of Legacy</div>
             </div>
